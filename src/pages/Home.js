@@ -11,6 +11,10 @@ const Home = () => {
     deleteSpeed: 80
   })
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -98,7 +102,7 @@ const Home = () => {
         </div>
 
         <div className="center p-4">
-          <Link to="https://www/pharmaque.co.uk/" className="btn btn-secondary fs-4 p-2 px-4 bold">Try PharmaQue Now!</Link>
+          <Link to="https://www.pharmaque.co.uk/" className="btn btn-secondary fs-4 p-2 px-4 bold">Try PharmaQue Now!</Link>
         </div>
 
       </div>
@@ -152,7 +156,7 @@ const Home = () => {
         <Link to="/terms" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">Terms and Conditions</span></Link>
         <Link to="/privacy" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">Privacy Policy</span></Link>
         <a href="mailto:pharmaque23@gmail.com" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">Contact Us</span></a>
-        <a href="#" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">About Us</span></a>
+        <Link to="/about" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">About Us</span></Link>
         <a href="#" className="removeunderline"><span className="fs-5 whitetext mt-2 mb-1 mx-4 bold inlineblock removeunderline">Work For Us</span></a>
 
 

@@ -5,6 +5,7 @@ import About from './pages/About.js';
 import Plans from './pages/Plans.js';
 import Home from './pages/Home.js';
 import Terms from './pages/Terms.js';
+import Privacy from './pages/Privacy.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" Component={About} />
         <Route path="/plans" Component={Plans} />
         <Route path="/terms" Component={Terms} />
+        <Route path="/privacy" Component={Privacy} />
       </Routes>
     </Router>
   );

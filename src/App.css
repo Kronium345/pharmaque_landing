@@ -1,0 +1,191 @@
+body
+{
+    font: Helvetica;
+}
+
+.lightblue{
+    background-color: #ECF7F7;
+}
+
+.lightgrey {
+    background-color: #F4F5F7;
+}
+
+.navbar-toggler
+{
+    line-height: 2;
+    border: solid #1D3354;
+}
+
+.form-control
+{
+    font-size:1.2rem;
+    border: 1px solid #BBC2CC;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.navbar-toggler-icon
+{
+    width:1.6em;
+    height: 1.6em;
+   
+}
+
+.logo
+{
+    margin-right: 8%;
+    max-width: 90px;
+    height: auto;
+}
+
+.darkfont{
+    color: #1D3354;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.normaltext
+{
+    font-weight: normal;
+}
+
+.deactivatedbtn
+{
+    background-color: #e5e5e5;
+    color: #bcbcbc;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.btn-primary
+{
+    background-color: #1D3354;
+    color: #E8EBEE;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.btn-primary:hover
+{
+    background-color: #9BD4DB;
+    color: #1D3354;
+    border: 0px;
+}
+
+.btn-secondary
+{
+    background-color: #9BD4DB;
+    border-radius: 25px;
+    border: 0px;
+    color: #1D3354;
+}
+
+.btn-secondary:hover
+{
+    background-color: #1D3354;
+    border-radius: 25px;
+    border: 0px;
+    color: #E8EBEE;
+}
+
+.removeunderline
+{
+    text-decoration: none;
+}
+
+.removeunderline:hover
+{
+    text-decoration: underline;
+}
+
+.card
+{
+    border-radius: 15px;
+}
+
+.quote
+{
+    max-width: 60px;
+    max-height: auto;
+}
+
+.feature
+{
+    max-width: 50px;
+    max-height: auto;
+}
+
+.leftalign
+{
+    text-align: left;
+}
+
+.darkblue
+{
+    background-color: #1D3354;
+}
+
+.whitetext
+{
+    color: #E8EBEE;
+}
+
+.bordertop
+{
+    border-top: solid #BBC2CC 1.5px;
+}
+
+.maxheight
+{
+    height: 100%;
+}
+
+.inlineblock
+{
+    display: inline-block;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.potion
+{
+    margin-right: 5px;
+    max-width: 60px;
+    height: auto;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .flex-container
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .potion
+    {
+    margin: 5px;
+    max-width: 60px;
+    height: auto;
+    }
+
+}
